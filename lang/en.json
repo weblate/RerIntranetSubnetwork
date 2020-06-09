@@ -1,0 +1,14 @@
+{
+    "RerIntranetSubnetwork": {
+        "Title": "Intranet Subnetwork",
+        "Description": "This report counts visits from local Intranet",
+        "SubnetworkName": "Subnetwork Name",
+        "SegmentName": "Subnetwork segment",
+        "SegmentHelp": "Enter the Subnetwork Name",
+        "SettingTitle": "Subnetwork Regular Expression",
+        "SettingDescription": "A Regular Expression that includes all subnetworks IP addresses",
+        "SettingException": "Must be a regular expression",
+        "SettingDefaultTitle": "Include standard private networks",
+        "SettingDefaultDescription": "Measure as Subnetworks IPv4 addresses included into 127.x.x.x, 192.x.x.x, 10.x.x.x"
+    }
+}

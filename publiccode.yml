@@ -1,0 +1,62 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - seo
+  - data-analytics
+  - data-visualization
+dependsOn:
+  open:
+  - name: Matomo
+    optional: false
+    versionMin: '3.0'
+logo: https://avatars0.githubusercontent.com/u/6428083?s=128&v=4
+description:
+  it:
+    features:
+      - report sui visitatori dalla intranet
+      - configurabile da interfaccia amministrativa
+    genericName: plugin per Matomo
+    longDescription: >
+      Aggiunge un widget e produce report sui visitatori dalla sottorete intranet.
+
+      Permette di definire gli indirizzi considerati sottorete, tramite interfaccia amministrativa.
+    shortDescription: Plugin per Matomo utile per conteggiare i visitatori provenienti dalla intranet, configurabile.
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+legal:
+  license: GPL-3.0-or-later
+  mainCopyrightOwner: Regione Emilia-Romagna
+  repoOwner: Regione Emilia-Romagna
+localisation:
+  availableLanguages:
+    - it
+    - en
+  localisationReady: true
+maintenance:
+  contacts:
+    - affiliation: Regione Emilia-Romagna
+      email: webmaster@regione.emilia-romagna.it
+      name: Sara Turra
+  type: community
+name: Rer Intranet Subnetwork
+platforms:
+  - web
+releaseDate: '2020-06-09'
+softwareType: addon
+url: 'https://github.com/RegioneER/RerIntranetSubnetwork'
+usedBy:
+  - Regione Emilia-Romagna

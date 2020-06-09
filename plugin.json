@@ -1,0 +1,23 @@
+{
+    "name": "RerIntranetSubnetwork",
+    "description": "Adds a new Subnetwork dimension and report",
+    "version": "3.0.0",
+    "theme": false,
+    "require": {
+        "php": ">=7.3.0",
+        "piwik": ">=3.2.0,<4.0.0-b1"
+    },
+    "authors": [
+        {
+            "name": "Regione Emilia-Romagna",
+            "homepage": "https://github.com/RegioneER"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/RegioneER/RerIntranetSubnetwork/issues",
+        "source": "https://github.com/RegioneER/RerIntranetSubnetwork"
+    },
+    "homepage": "https://github.com/RegioneER/RerIntranetSubnetwork",
+    "license": "AGPL-3.0-or-later",
+    "keywords": [ "reports", "intranet", "subnetworks" ]
+}
