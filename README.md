@@ -16,4 +16,4 @@ Just install by Matomo's Marketplace, or grab latest code from the Github reposi
 
 ## License
 
-This plugin is licensed under GNU Affero General Public License
+This plugin is licensed under GNU General Public License v3+
