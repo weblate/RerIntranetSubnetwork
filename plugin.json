@@ -18,6 +18,6 @@
         "source": "https://github.com/RegioneER/RerIntranetSubnetwork"
     },
     "homepage": "https://github.com/RegioneER/RerIntranetSubnetwork",
-    "license": "AGPL-3.0-or-later",
+    "license": "GPL-3.0+",
     "keywords": [ "reports", "intranet", "subnetworks" ]
 }

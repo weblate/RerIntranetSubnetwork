@@ -9,10 +9,11 @@ categories:
   - data-visualization
 dependsOn:
   open:
-  - name: Matomo
-    optional: false
-    versionMin: '3.0'
-logo: https://avatars0.githubusercontent.com/u/6428083?s=128&v=4
+    - name: Matomo
+      optional: false
+      version: ''
+      versionMax: ''
+      versionMin: '3.0'
 description:
   it:
     features:
@@ -20,10 +21,23 @@ description:
       - configurabile da interfaccia amministrativa
     genericName: plugin per Matomo
     longDescription: >
-      Aggiunge un widget e produce report sui visitatori dalla sottorete intranet.
+      Questo **plugin per Matomo** aggiunge una nuova _dimensione_ ai _report_ e
+      **permette di conteggiare le visite provenienti dalla intranet.**
 
-      Permette di definire gli indirizzi considerati sottorete, tramite interfaccia amministrativa.
-    shortDescription: Plugin per Matomo utile per conteggiare i visitatori provenienti dalla intranet, configurabile.
+
+      La rappresentazione avviene per mezzo di un nuovo _widget_ che elenca la
+      provenienza delle _visite_, suddivise in WWW per internet e Intranet per
+      le sotto reti.
+
+
+      Le _sotto reti_ si definiscono configurando l'interfaccia amministrativa,
+      indicando gli indirizzi per mezzo di una espressione regolare.
+
+
+      Disponibile sia nel catalogo del riuso, sia nel marketplace di Matomo.
+    shortDescription: >-
+      Plugin per Matomo utile per conteggiare i visitatori provenienti dalla
+      intranet, configurabile.
 developmentStatus: stable
 it:
   conforme:
