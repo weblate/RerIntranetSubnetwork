@@ -40,6 +40,8 @@ description:
       intranet, configurabile.
 developmentStatus: stable
 it:
+  riuso:
+    codiceIPA: r_emiro
   conforme:
     gdpr: true
     lineeGuidaDesign: false
