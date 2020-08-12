@@ -38,6 +38,9 @@ description:
     shortDescription: >-
       Plugin per Matomo utile per conteggiare i visitatori provenienti dalla
       intranet, configurabile.
+    screenshots:
+      - screenshots/report.png
+      - screenshots/settings.png
 developmentStatus: stable
 it:
   riuso:
