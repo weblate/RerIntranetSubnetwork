@@ -1,11 +1,11 @@
 {
     "name": "RerIntranetSubnetwork",
     "description": "Adds a new Subnetwork dimension and report",
-    "version": "3.0.0",
+    "version": "4.0.0",
     "theme": false,
     "require": {
         "php": ">=7.3.0",
-        "piwik": ">=3.2.0,<4.0.0-b1"
+        "piwik": ">=4.0.0-b1,<5.0.0-b1"
     },
     "authors": [
         {
