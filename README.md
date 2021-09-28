@@ -1,14 +1,23 @@
-# Matomo RerIntranetSubnetwork Plugin
+# Matomo RerIntranetSubnetwork Plugin (ipv4)
+
+[![Catalogo del riuso software](https://img.shields.io/badge/Riuso%20AGID-Software-%230076e3)](https://developers.italia.it/it/pa/r_emiro)
+[![Matomo version](https://img.shields.io/badge/matomo-4.x--dev-success)](https://github.com/matomo-org/matomo)
+[![Matomo version](https://img.shields.io/badge/matomo-3.x--dev-success)](https://github.com/matomo-org/matomo)
+[![GitHub license](https://img.shields.io/github/license/RegioneER/RerIntranetSubnetwork)](https://github.com/RegioneER/RerIntranetSubnetwork/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/RegioneER/RerIntranetSubnetwork)](https://github.com/RegioneER/RerIntranetSubnetwork/issues)
+[![GitHub forks](https://img.shields.io/github/forks/RegioneER/RerIntranetSubnetwork)](https://github.com/RegioneER/RerIntranetSubnetwork/network)
 
 ## Description
 
-This plugin adds to your Matomo installation a new _dimension_ called **visit_subnetwork** then reports visitor counts coming from private networks.
+This [Matomo plugin](https://plugins.matomo.org/RerIntranetSubnetwork) adds to your installation a new _dimension_ called **visit_subnetwork** then reports visitor counts coming from private networks.
 
-Configure settings by Matomo's administration page. You can choose to include common private subnetwork, such as 127.x.x.x, 192.x.x.x and 10.x.x.x.
+Settings are easily configurable by Matomo's General Settings administration page. You have two choices.
 
-You can also configure your custom subnet rule by writing a regular expression.
+- [Private Address Space from RCF 1918](https://datatracker.ietf.org/doc/html/rfc1918#section-3), such as 127.0.0.1, 192.168.x.x, 172.16.x.x and 10.x.x.x.
 
-This plugin is a complete refactoring working on Matomo 3.x of original [IntranetSubnetwork](https://github.com/kwasib/IntranetSubNetwork) was published for Piwik 2.x.
+- Configure your custom subnet rule by writing a regular expression matching the included IPs.
+
+This plugin is a complete refactoring working on Matomo of the first [IntranetSubnetwork](https://github.com/kwasib/IntranetSubNetwork) that was published for Piwik 2.x.
 
 ## Installation
 
@@ -18,7 +27,17 @@ Just install by Matomo's Marketplace, or grab latest code from the Github reposi
 
 This plugin is licensed under GNU General Public License v3+
 
+## Support
+
+You can ask for support and your feedback is appreciated at plugin's [issue center on Github](https://github.com/RegioneER/RerIntranetSubnetwork/issues).
+
 ## Changelog
+
+### 4.1.0
+
+Added [Weblate](https://hosted.weblate.org/projects/matomo/communityplugin-rerintranetsubnetwork/) support for translations.
+
+Updated regex rule matching RCF 1918 spaces.
 
 ### 4.0.1
 

@@ -1,7 +1,7 @@
 {
     "name": "RerIntranetSubnetwork",
     "description": "Adds a new Subnetwork dimension and report",
-    "version": "4.0.1",
+    "version": "4.1.0",
     "theme": false,
     "require": {
         "php": ">=7.3.0",
@@ -10,7 +10,8 @@
     "authors": [
         {
             "name": "Regione Emilia-Romagna",
-            "homepage": "https://github.com/RegioneER"
+            "homepage": "https://github.com/RegioneER",
+	    "email": "webmaster@regione.emilia-romagna.it"
         }
     ],
     "support": {
