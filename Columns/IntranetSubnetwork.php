@@ -9,6 +9,8 @@ use Piwik\Plugins\RerIntranetSubnetwork\SystemSettings;
 use Piwik\Tracker\Request;
 use Piwik\Tracker\Visitor;
 use Piwik\Tracker\Action;
+use Piwik\Columns\DimensionSegmentFactory;
+use Piwik\Segment\SegmentsList;
 
 class IntranetSubnetwork extends VisitDimension
 {
@@ -42,14 +44,14 @@ class IntranetSubnetwork extends VisitDimension
      * show all reports only considering users having more than 10 achievement points. If you do not want to define a
      * segment for this dimension just remove the column.
      */
-    protected function configureSegments()
+    public function configureSegments(SegmentsList $segmentsList, DimensionSegmentFactory $dimensionSegmentFactory)
     {
-        $segment = new Segment();
+        $segment = new Segment;
         $segment->setSegment('subnetworkName');
         $segment->setCategory('General_Visit');
         $segment->setName('RerIntranetSubnetwork_SubnetworkName');
         $segment->setAcceptedValues(Piwik::translate('RerIntranetSubnetwork_SegmentHelp'));
-        $this->addSegment($segment);
+        $segmentsList->addSegment($dimensionSegmentFactory->createSegment($segment));
     }
 
     /**
@@ -68,8 +70,8 @@ class IntranetSubnetwork extends VisitDimension
         // Load system settings
         $settings = new SystemSettings;
 
-//        $logger = StaticContainer::getContainer()->get('Psr\Log\LoggerInterface');
-//        LoggerInterface->debug('RULE: {rule}', ['rule'=>$rule]);
+        //        $logger = StaticContainer::getContainer()->get('Psr\Log\LoggerInterface');
+        //        LoggerInterface->debug('RULE: {rule}', ['rule'=>$rule]);
 
         // SPEED: if info has already been set, abort
         $subnetworkValue = $visitor->getVisitorColumn('location_subnetwork');
@@ -87,7 +89,7 @@ class IntranetSubnetwork extends VisitDimension
 
         // Checks if is coming from regex settings
         $rule = '%' . $settings->subnetwork_regex->getValue() . '%';
-        if ( !is_null($rule) && preg_match($rule, $request->getIpString()) ) {
+        if (!is_null($rule) && preg_match($rule, $request->getIpString())) {
             return 'Intranet';
         }
 
@@ -165,5 +167,5 @@ class IntranetSubnetwork extends VisitDimension
     {
         return array('idsite', 'server_time');
     }
-    */
+     */
 }
