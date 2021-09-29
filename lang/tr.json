@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Bu rapor yerel İntranet üzerinden yapılan ziyaretleri sayar",
+        "SegmentHelp": "Alt ağ adını yazın",
+        "SegmentName": "Alt ağ dilimi",
+        "SettingDefaultDescription": "127.x.x.x, 192.x.x.x, 10.x.x.x içime katılan IPv4 adresleri alt ağlar olarak ölçülsün",
+        "SettingDefaultTitle": "Standart özel ağlar katılsın",
+        "SettingDescription": "Tüm alt ağların IP adreslerini kapsayan bir kurallı ifade",
+        "SettingException": "Bir kurallı ifade olmalıdır",
+        "SettingTitle": "Alt ağ kurallı ifadesi",
+        "SubnetworkName": "Alt ağ adı",
+        "Title": "İntranet alt ağı"
+    }
+}
