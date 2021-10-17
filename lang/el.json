@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Η αναφορά μετράει επισκέψει από το εσωτερικό intranet",
+        "SegmentHelp": "Εισάγετε το όνομα του Υποδικτύου",
+        "SegmentName": "Τμήμα υποδικτύου",
+        "SettingDefaultDescription": "Μέτρηση ως Υποδίκτυα διευθύνσεων IPv4 που συμπεριλαμβάνονται στα 127.x.x.x, 192.x.x.x, 10.x.x.x",
+        "SettingDefaultTitle": "Συμπερίληψη πρότυπων ιδιωτικών δικτύων",
+        "SettingDescription": "Μια Κανονική Έκφραση που περιλαμβάνει όλες τις διευθύνσεις IP των υποδικτύων",
+        "SettingException": "Πρέπει να είναι κανονική έκφραση",
+        "SettingTitle": "Κανονική Έκφραση Υποδικτύου",
+        "SubnetworkName": "Όνομα υποδικτύου",
+        "Title": "Υποδίκτυο Intranet"
+    }
+}
