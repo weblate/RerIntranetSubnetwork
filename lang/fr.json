@@ -1,1 +1,11 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Ce rapport comptabilise les visites provenant de l'intranet local",
+        "SegmentHelp": "Entrer le nom du sous- réseau",
+        "SegmentName": "Sous-réseau segment",
+        "SettingDescription": "Une expression régulière qui inclut toutes les adresses IP des sous-réseaux",
+        "SettingTitle": "Expression regulière du sous-réseau",
+        "SubnetworkName": "Nom du sous- réseau",
+        "Title": "Sous-réseau Intranet"
+    }
+}
