@@ -1,7 +1,7 @@
 {
     "name": "RerIntranetSubnetwork",
-    "description": "Adds a new Subnetwork dimension and report",
-    "version": "4.1.0",
+    "description": "Measure your intranet visitors with a new Subnetwork dimension and related report",
+    "version": "4.1.3",
     "theme": false,
     "require": {
         "php": ">=7.3.0",
@@ -11,7 +11,7 @@
         {
             "name": "Regione Emilia-Romagna",
             "homepage": "https://github.com/RegioneER",
-	    "email": "webmaster@regione.emilia-romagna.it"
+	        "email": "webmaster@regione.emilia-romagna.it"
         }
     ],
     "support": {
@@ -20,5 +20,5 @@
     },
     "homepage": "https://github.com/RegioneER/RerIntranetSubnetwork",
     "license": "GPL-3.0+",
-    "keywords": [ "reports", "intranet", "subnetworks" ]
+    "keywords": [ "report", "intranet", "subnetworks" ]
 }

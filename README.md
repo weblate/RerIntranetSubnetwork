@@ -13,49 +13,8 @@ This [Matomo plugin](https://plugins.matomo.org/RerIntranetSubnetwork) adds to y
 
 Settings are easily configurable by Matomo's General Settings administration page. You have two choices.
 
-- [Private Address Space from RCF 1918](https://datatracker.ietf.org/doc/html/rfc1918#section-3), such as 127.0.0.1, 192.168.x.x, 172.16.x.x and 10.x.x.x.
+- [Private Address Space from RCF 1918](https://datatracker.ietf.org/doc/html/rfc1918#section-3), such as localhost 127.0.0.1, and IANA pre-defined networks 192.168.x.x, 172.16.x.x, 10.x.x.x.
 
-- Configure your custom subnet rule by writing a regular expression matching the included IPs.
+- Configure your custom subnet rule by writing a regular expression matching the IPv4 addresses of your other intanet mapped on the web (called [extranet](https://en.wikipedia.org/wiki/Extranet)).
 
-This plugin is a complete refactoring working on Matomo of the first [IntranetSubnetwork](https://github.com/kwasib/IntranetSubNetwork) that was published for Piwik 2.x.
-
-## Installation
-
-Just install by Matomo's Marketplace, or grab latest code from the Github repository.
-
-## License
-
-This plugin is licensed under GNU General Public License v3+
-
-## Support
-
-You can ask for support and your feedback is appreciated at plugin's [issue center on Github](https://github.com/RegioneER/RerIntranetSubnetwork/issues).
-
-## Changelog
-
-### 4.1.0
-
-Added [Weblate](https://hosted.weblate.org/projects/matomo/communityplugin-rerintranetsubnetwork/) support for translations.
-
-Updated regex rule matching RCF 1918 spaces.
-
-### 4.0.1
-
-Added support for Matomo 4.x-dev
-
-### 2.3.0
-
-Added Default Subnetworks configuration field. It's a checkbox you can use to include sandard networks measurement.
-
-### 2.2.0
-
-Added Web Administration configuration field. You can use it writing your custom Regular Expression for catching Subnetworks IPs.
-
-### 2.1.0
-
-- Features imported from IntranetSubNetwork old plugin.
-- Mayor bug fixing
-
-### 2.0.0
-
-Rewrite from scratch using Piwik's console generators
+This plugin is a complete refactoring adapted and mantained for actual Matomo, of the first [IntranetSubnetwork](https://github.com/kwasib/IntranetSubNetwork) that was published for Piwik 2.x.
