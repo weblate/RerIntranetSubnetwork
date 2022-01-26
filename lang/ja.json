@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "このレポートはローカルイントラネットからの訪問を数えます",
+        "SegmentHelp": "サブネットワーク名を入力してください",
+        "SegmentName": "サブネットワークのセグメント",
+        "SettingDefaultDescription": "127.x.x.x, 192.x.x.x, 10.x.x.xに含まれるサブネットワークのIPv4アドレスを測定しる",
+        "SettingDefaultTitle": "標準的なプライベートネットワークを含む",
+        "SettingDescription": "すべてのサブネットワークのIPアドレスを含んだ正規表現",
+        "SettingException": "正規表現ではなければなりません",
+        "SettingTitle": "サブネットワークの正規表現",
+        "SubnetworkName": "サブネットワーク名",
+        "Title": "イントラネットサブネット"
+    }
+}
