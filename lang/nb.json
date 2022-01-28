@@ -1,1 +1,12 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Denne rapporten teller besøk fra lokalt intranett",
+        "SegmentHelp": "Skriv inn undernettverksnavn",
+        "SegmentName": "Undernettverkssegment",
+        "SettingDefaultTitle": "Inkludert forvalgte private nettverk",
+        "SettingDescription": "Et regulært uttrykk som inneholder alle IP-adresser for undernettverk",
+        "SettingException": "Må være et regulært uttrykk",
+        "SubnetworkName": "Undernettverksnavn",
+        "Title": "Intranett-undernettverk"
+    }
+}

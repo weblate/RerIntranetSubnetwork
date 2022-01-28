@@ -3,9 +3,12 @@
         "Description": "Ce rapport comptabilise les visites provenant de l'intranet local",
         "SegmentHelp": "Entrer le nom du sous- réseau",
         "SegmentName": "Sous-réseau segment",
+        "SettingDefaultDescription": "Mesure en tant que sous-réseaux Adresses IPv4 incluses dans 127.x.x.x, 192.x.x.x, 10.x.x.x",
+        "SettingDefaultTitle": "Inclure les réseaux privés standard",
         "SettingDescription": "Une expression régulière qui inclut toutes les adresses IP des sous-réseaux",
+        "SettingException": "Doit être une expression régulière",
         "SettingTitle": "Expression regulière du sous-réseau",
         "SubnetworkName": "Nom du sous- réseau",
-        "Title": "Sous-réseau Intranet"
+        "Title": "Sous-réseau intranet"
     }
 }
