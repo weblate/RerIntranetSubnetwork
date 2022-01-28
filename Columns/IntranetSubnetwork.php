@@ -82,7 +82,7 @@ class IntranetSubnetwork extends VisitDimension
 
         // Check if is a common subnetwork
         if (true == $settings->subnetwork_default->getValue()) {
-            if (preg_match('/^127.0.0.1|(192.168|172.(1[6789]|2[0-9]|3[01]))(.\d{1,3}){2}|10(.\d{1,3}){3}$/', $request->getIpString())) {
+            if (preg_match('/^127\.0\.0\.1$|^(192\.168|^172\.(1[6789]|2[0-9]|3[01]))(\.\d{1,3}){2}$|^10(\.\d{1,3}){3}$/', $request->getIpString())) {
                 return 'Intranet';
             }
         }

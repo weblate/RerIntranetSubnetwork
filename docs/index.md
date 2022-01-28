@@ -9,8 +9,10 @@ Community is helping [translate on Weblate](https://hosted.weblate.org/projects/
 - English
 - German
 - Greek
+- Japanese
 - Italian
 - French
+- Norwegian Bokmål
 - Turkish
 - Ukrainian
 
@@ -22,7 +24,8 @@ You can ask for support and your feedback is appreciated at plugin's [issue cent
 
 ### Changelog
 
-#### Version 4.xr
+#### Version 4.x
+- fixing #10
 - Merging of community translations
 - Added Weblate support for community powered translations
 - Updated regular expression rule matching [RCF 1918 Private Address Space](https://datatracker.ietf.org/doc/html/rfc1918#section-3)
