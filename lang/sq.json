@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Ky raport numëron vizita nga Intranet vendor",
+        "SegmentHelp": "Jepni emrin e Nënrrjetit",
+        "SegmentName": "Segment nënrrjeti",
+        "SettingDefaultDescription": "Mati si adresa Nënrrjeti IPv4 përfshirë te 127.x.x.x, 192.x.x.x, 10.x.x.x",
+        "SettingDefaultTitle": "Përfshi rrjete private standarde",
+        "SettingDescription": "Një Shprehje e Rregullt që përfshin krejt adresat IP të nënrrjeteve",
+        "SettingException": "Duhet të jetë një shprehje e rregullt",
+        "SettingTitle": "Shprehje e Rregullt Nënrrjeti",
+        "SubnetworkName": "Emër Nënrrjeti",
+        "Title": "Nënrrjet Intranet"
+    }
+}
