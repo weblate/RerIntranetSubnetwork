@@ -6,6 +6,9 @@ Just install by Matomo's Marketplace, or grab latest code from the Github reposi
 ### Translations
 Community is helping [translate on Weblate](https://hosted.weblate.org/projects/matomo/communityplugin-rerintranetsubnetwork/), list of available languages:
 
+- Albanian
+- Brazilian
+- Catalan
 - English
 - German
 - Greek
