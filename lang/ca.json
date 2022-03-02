@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Aquest informe comptabilitza les visites des de la intranet local",
+        "SegmentHelp": "Introduïu el nom de la subxarxa",
+        "SegmentName": "Segment de la subxarxa",
+        "SettingDefaultDescription": "Mesura com a subxarxes les adreces IPv4 incloses a 127.x.x.x, 192.x.x.x, 10.x.x.x",
+        "SettingDefaultTitle": "Inclou xarxes privades estàndard",
+        "SettingDescription": "Una expressió regular que inclou totes les adreces IP de les subxarxes",
+        "SettingException": "Ha de ser una expressió regular",
+        "SettingTitle": "Expressió regular de subxarxa",
+        "SubnetworkName": "Nom de la subxarxa",
+        "Title": "Subxarxa intranet"
+    }
+}

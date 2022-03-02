@@ -6,6 +6,7 @@
         "SettingDefaultTitle": "Inkludert forvalgte private nettverk",
         "SettingDescription": "Et regulært uttrykk som inneholder alle IP-adresser for undernettverk",
         "SettingException": "Må være et regulært uttrykk",
+        "SettingTitle": "Regulært uttrykk for undernettverk",
         "SubnetworkName": "Undernettverksnavn",
         "Title": "Intranett-undernettverk"
     }
