@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "이 보고서는 로컬 인트라넷의 방문 수를 계산합니다",
+        "SegmentHelp": "하위네트워크 이름 입력",
+        "SegmentName": "하위네트워크 세그먼트",
+        "SettingDefaultDescription": "127.x.x.x, 192.x.x.x, 10.x.x.x에 포함된 IPv4 주소를 하위네트워크로 측정",
+        "SettingDefaultTitle": "표준 비공개 네트워크 포함",
+        "SettingDescription": "모든 하위네트워크 IP 주소를 포함하는 정규식",
+        "SettingException": "정규식이어야 합니다",
+        "SettingTitle": "하위네트워크 정규식",
+        "SubnetworkName": "하위네트워크 이름",
+        "Title": "인트라넷 하위네트워크"
+    }
+}
