@@ -3,6 +3,7 @@
         "Description": "Denne rapporten teller besøk fra lokalt intranett",
         "SegmentHelp": "Skriv inn undernettverksnavn",
         "SegmentName": "Undernettverkssegment",
+        "SettingDefaultDescription": "Mål som undernettverks-IPv4-adresser inkludert i 127.x.x.x, 192.x.x.x, 10.x.x.x",
         "SettingDefaultTitle": "Inkludert forvalgte private nettverk",
         "SettingDescription": "Et regulært uttrykk som inneholder alle IP-adresser for undernettverk",
         "SettingException": "Må være et regulært uttrykk",

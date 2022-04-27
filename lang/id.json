@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Laporan ini menghitung kunjungan dari Intranet lokal",
+        "SegmentHelp": "Masukkan Nama Subnet",
+        "SegmentName": "Segmen subnet",
+        "SettingDefaultDescription": "Ukur sebagai alamat IPv4 Subnet yang disertakan ke dalam 127.x.x.x, 192.x.x.x, 10.x.x.x",
+        "SettingDefaultTitle": "Sertakan jaringan pribadi standar",
+        "SettingDescription": "Ekspresi Reguler yang mencakup semua alamat IP subnet",
+        "SettingException": "Harus berupa ekspresi reguler",
+        "SettingTitle": "Ekspresi Reguler Subnet",
+        "SubnetworkName": "Nama Subnet",
+        "Title": "Subnet Intranet"
+    }
+}

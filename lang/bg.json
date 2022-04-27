@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Този отчет отчита посещения от локален интранет",
+        "SegmentHelp": "Въведете името на подмрежата",
+        "SegmentName": "Сегмент на подмрежата",
+        "SettingDefaultDescription": "Измерете като подмрежи IPv4 адреси, включени в 127.x.x.x, 192.x.x.x, 10.x.x.x",
+        "SettingDefaultTitle": "Включете стандартни частни мрежи",
+        "SettingDescription": "Редовен израз, който включва всички IP адреси на подмрежи",
+        "SettingException": "Трябва да е регулярен израз",
+        "SettingTitle": "Регулярен израз на подмрежата",
+        "SubnetworkName": "Име на подмрежата",
+        "Title": "Интранет подмрежа"
+    }
+}
