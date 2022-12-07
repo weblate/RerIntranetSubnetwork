@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Denna rapport räknar besök från lokalt intranät",
+        "SegmentHelp": "Ange namnet på delnätverket",
+        "SegmentName": "Delnätssegment",
+        "SettingDefaultDescription": "Mät som delnätverk IPv4-adresser som ingår i 127.x.x.x.x, 192.x.x.x.x, 10.x.x.x.x",
+        "SettingDefaultTitle": "Inkludera privata standardnätverk",
+        "SettingDescription": "Ett reguljärt uttryck som inkluderar alla IP-adresser i delnätverken",
+        "SettingException": "Måste vara ett reguljärt uttryck",
+        "SettingTitle": "Reguljärt uttryck för delnätverk",
+        "SubnetworkName": "Delnätverksnamn",
+        "Title": "Delnät inom intranät"
+    }
+}
