@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Este informe cuenta las visitas a la intranet local",
+        "SegmentHelp": "Ingrese el nombre de la subred",
+        "SegmentName": "Segmento de la subred",
+        "SettingDefaultDescription": "Mida como las direcciones IPv4 de las subredes incluidas en 127.xxx, 192.xxx, 10.xxx",
+        "SettingDefaultTitle": "Incluir las redes privadas estándar",
+        "SettingDescription": "Una expresión regular que contiene todas las direcciones IP de la subred",
+        "SettingException": "Debe ser una expresión regular",
+        "SettingTitle": "Expresión regular de la subred",
+        "SubnetworkName": "Nombre de la subred",
+        "Title": "Subred de intranet"
+    }
+}
