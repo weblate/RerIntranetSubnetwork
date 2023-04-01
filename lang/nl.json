@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Dit rapport telt bezoeken van het lokaal intranet",
+        "SegmentHelp": "Geef de subnetwerk naam",
+        "SegmentName": "Subnetwerk segment",
+        "SettingDefaultDescription": "Neemt als subnetwerken IPv4-adressen die zijn opgenomen in 127.x.x.x, 192.x.x.x, 10.x.x.x",
+        "SettingDefaultTitle": "Inclusief standaard private netwerken",
+        "SettingDescription": "Een reguliere expressie die alle subnetwerk IP-adressen bevat",
+        "SettingException": "Moet een reguliere expressie zijn",
+        "SettingTitle": "Subnetwerk reguliere expressie",
+        "SubnetworkName": "Subnetwerk naam",
+        "Title": "Intranet subnetwerk"
+    }
+}
