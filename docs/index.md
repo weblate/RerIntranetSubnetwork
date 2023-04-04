@@ -1,28 +1,19 @@
 ## Documentation
 
 ### Installation
+
 Just install by Matomo's Marketplace, or grab latest code from the Github repository.
 
 ### Translations
-Community is helping [translate on Weblate](https://hosted.weblate.org/projects/matomo/communityplugin-rerintranetsubnetwork/), list of available languages:
 
-- Albanian
-- Brazilian
-- Catalan
-- English
-- German
-- Greek
-- Japanese
-- Italian
-- French
-- Norwegian Bokmål
-- Turkish
-- Ukrainian
+[![Translation status on Weblate](https://hosted.weblate.org/widgets/matomo/-/communityplugin-rerintranetsubnetwork/horizontal-auto.svg)](https://hosted.weblate.org/engage/matomo/)
 
 ### License
+
 This free software is licensed under GNU General Public License v3+
 
 ### Support
+
 You can ask for support and your feedback is appreciated at plugin's [issue center on Github](https://github.com/RegioneER/RerIntranetSubnetwork/issues).
 
 ### Changelog
