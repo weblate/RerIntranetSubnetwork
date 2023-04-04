@@ -19,3 +19,14 @@ Settings are easily configurable by Matomo's General Settings administration pag
 - Configure your custom subnet rule by writing a regular expression matching the IPv4 addresses of your other intanet mapped on the web (called [extranet](https://en.wikipedia.org/wiki/Extranet)).
 
 This plugin is a complete refactoring adapted and mantained for actual Matomo, of the first [IntranetSubnetwork](https://github.com/kwasib/IntranetSubNetwork) that was published for Piwik 2.x.
+
+## Screenshots
+
+Report's picture
+
+![Report's picture](screenshots/report.png)
+
+Settings pane in general settings administrative page
+
+![Plugin's settings](screenshots/settings.png)
+
