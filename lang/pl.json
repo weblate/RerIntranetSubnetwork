@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Raport ten zlicza wizyty z lokalnego Intranetu",
+        "SegmentHelp": "Wprowadź nazwę podsieci",
+        "SegmentName": "Segment podsieci",
+        "SettingDefaultDescription": "Zmierz jako adresy IPv4 podsieci zawarte w 127.x.x.x, 192.x.x.x, 10.x.x.x",
+        "SettingDefaultTitle": "Uwzględnij standardowe sieci prywatne",
+        "SettingDescription": "Wyrażenie regularne, które zawiera wszystkie adresy IP podsieci",
+        "SettingException": "Musi być wyrażeniem regularnym",
+        "SettingTitle": "Wyrażenie regularne podsieci",
+        "SubnetworkName": "Nazwa podsieci",
+        "Title": "Podsieć intranetowa"
+    }
+}

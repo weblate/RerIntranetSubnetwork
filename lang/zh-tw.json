@@ -1,1 +1,6 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "此報表計算來自本地網路的訪問量",
+        "Title": "內部網路子網路"
+    }
+}
