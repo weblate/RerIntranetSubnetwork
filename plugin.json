@@ -1,7 +1,7 @@
 {
     "name": "RerIntranetSubnetwork",
     "description": "Measure your intranet visitors with a new Subnetwork dimension and related report",
-    "version": "4.1.9",
+    "version": "4.1.10",
     "theme": false,
     "require": {
         "php": ">=7.3.0",
