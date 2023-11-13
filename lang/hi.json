@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "यह रिपोर्ट स्थानीय इंट्रानेट से विज़िट की गणना करती है",
+        "SegmentHelp": "सबनेटवर्क नाम दर्ज करें",
+        "SegmentName": "सबनेटवर्क खंड",
+        "SettingDefaultDescription": "१२७.x.x.x, १९२.x.x.x,१०.x.x.x में शामिल सबनेटवर्क आयपीव्‍ही४ पतों के रूप में मापें",
+        "SettingDefaultTitle": "मानक निजी नेटवर्क शामिल करें",
+        "SettingDescription": "एक रेगुलर एक्सप्रेशन जिसमें सभी सबनेटवर्क आईपी पते शामिल हैं",
+        "SettingException": "एक नियमित अभिव्यक्ति होनी चाहिए",
+        "SettingTitle": "सबनेटवर्क रेगुलर एक्सप्रेशन",
+        "SubnetworkName": "सबनेटवर्क नाम",
+        "Title": "इंट्रानेट सबनेटवर्क"
+    }
+}
