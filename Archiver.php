@@ -23,5 +23,4 @@ class Archiver extends \Piwik\Plugin\Archiver
         $metrics = $this->getLogAggregator()->getMetricsFromVisitByDimension(self::INTRANETSUBNETWORK_FIELD)->asDataTable();
         $this->getProcessor()->insertBlobRecord(self::INTRANETSUBNETWORK_RECORD_NAME, $metrics->getSerialized());
     }
-
 }

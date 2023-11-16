@@ -1,11 +1,11 @@
 {
     "name": "RerIntranetSubnetwork",
     "description": "Measure your intranet visitors with a new Subnetwork dimension and related report",
-    "version": "4.1.10",
+    "version": "5.0.0",
     "theme": false,
     "require": {
         "php": ">=7.3.0",
-        "matomo": ">=4.0.0-b1,<5.0.0-b1"
+        "matomo": ">=5.0.0-rc1,<6.0.0-b1"
     },
     "authors": [
         {

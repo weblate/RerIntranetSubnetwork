@@ -31,7 +31,8 @@ class SystemSettings extends \Piwik\Settings\Plugin\SystemSettings
 
     private function createSubnetworkDefaultSetting()
     {
-        return $this->makeSetting('subnetwork_default',
+        return $this->makeSetting(
+            'subnetwork_default',
             true,
             FieldConfig::TYPE_BOOL,
             function (FieldConfig $field) {
@@ -44,20 +45,21 @@ class SystemSettings extends \Piwik\Settings\Plugin\SystemSettings
 
     private function createSubnetworkRegexSetting()
     {
-        return $this->makeSetting('subnetwork_regex', null,
+        return $this->makeSetting(
+            'subnetwork_regex',
+            null,
             FieldConfig::TYPE_STRING,
             function (FieldConfig $field) {
                 $field->title = Piwik::translate('RerIntranetSubnetwork_SettingTitle');
                 $field->description = Piwik::translate('RerIntranetSubnetwork_SettingDescription');
                 $field->uiControl = FieldConfig::UI_CONTROL_TEXT;
-//                $field->validate = function ($value, Setting $field) {
-//                    if ( '^' !== substr($value, 0, 2) || '/' !== substr($value, -1) )
-//                    {
-//                        throw new \Exception(Piwik::translate('RerIntranetSubnetwork_SettingException'));
-//                    }
-//                };
+            //                $field->validate = function ($value, Setting $field) {
+            //                    if ( '^' !== substr($value, 0, 2) || '/' !== substr($value, -1) )
+            //                    {
+            //                        throw new \Exception(Piwik::translate('RerIntranetSubnetwork_SettingException'));
+            //                    }
+            //                };
             }
         );
     }
-
 }

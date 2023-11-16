@@ -42,7 +42,7 @@ class GetIntranetSubnetwork extends Base
 
         // If a subcategory is specified, the report will be displayed in the menu under this menu item
         // $this->subcategoryId = 'RerIntranetSubnetwork_Title';
-	$this->subcategoryId = $this->name;
+        $this->subcategoryId = $this->name;
     }
 
     /**
@@ -103,12 +103,11 @@ class GetIntranetSubnetwork extends Base
      */
 
 /**
-	public function configureWidgets(WidgetsList $widgetsList, ReportWidgetFactory $factory)
-	{
-		// we have to do it manually since it's only done automatically if a subcategoryId is specified,
-		// we do not set a subcategoryId since this report is not supposed to be shown in the UI
-		$widgetsList->addWidgetConfig($factory->createWidget());
-	}
+    public function configureWidgets(WidgetsList $widgetsList, ReportWidgetFactory $factory)
+    {
+        // we have to do it manually since it's only done automatically if a subcategoryId is specified,
+        // we do not set a subcategoryId since this report is not supposed to be shown in the UI
+        $widgetsList->addWidgetConfig($factory->createWidget());
+    }
 */
-
 }

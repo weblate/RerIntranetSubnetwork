@@ -8,21 +8,19 @@ use Piwik\ViewDataTable\Factory;
 
 class Controller extends \Piwik\Plugin\Controller
 {
-
     public function getIntranetSubnetwork($fetch = false)
     {
         Piwik::checkUserHasSomeViewAccess();
 #        $this->checkTokenInUrl();
 
-        $view = Factory::build( 'pie', 'RerIntranetSubnetwork.getIntranetSubnetwork', $this->pluginName . '.' . __FUNCTION__ );
+        $view = Factory::build('pie', 'RerIntranetSubnetwork.getIntranetSubnetwork', $this->pluginName . '.' . __FUNCTION__);
 #        $view = Factory::build( 'table', 'RerIntranetSubnetwork.getIntranetSubnetwork', $this->pluginName . '.' . __FUNCTION__ );
 #        $view = Factory::build( $this->pluginName, "RerIntranetSubnetwork.getIntranetSubnetwork", $this->pluginName . '.' . __FUNCTION__ );
         $this->setPeriodVariablesView($view);
         $column = 'nb_visits';
         $percCol = 'nb_visits_percentage';
         $percColName = 'General_ColumnPercentageVisits';
-        if ($view->period == 'day')
-        {
+        if ($view->period == 'day') {
             $column = 'nb_uniq_visitors';
         }
         $view->config->columns_to_display = ['label', $percCol, $column ];
@@ -33,5 +31,4 @@ class Controller extends \Piwik\Plugin\Controller
 
         return $view->render();
     }
-
 }
