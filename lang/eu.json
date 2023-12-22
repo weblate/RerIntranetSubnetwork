@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Txosten honek Intranet lokaleko bisitak kontatzen ditu",
+        "SegmentHelp": "Idatzi azpisarearen izena",
+        "SegmentName": "Azpisarearen segmentua",
+        "SettingDefaultDescription": "127.x.x.x, 192.x.x.x, 10.x.x.x bezalako IPv4 helbideak azpisare bezala hartu",
+        "SettingDefaultTitle": "Sare pribatu estandarrak barne",
+        "SettingDescription": "Azpisarearen IP helbide guztiak hartzen dituen adierazpen erregularra",
+        "SettingException": "Adierazpen erregularra izan behar du",
+        "SettingTitle": "Azpisarearen adierazpen erregularra",
+        "SubnetworkName": "Azpisarearen izena",
+        "Title": "Intranet azpisarea"
+    }
+}

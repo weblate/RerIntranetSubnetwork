@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "આ રિપોર્ટ સ્થાનિક ઈન્ટ્રાનેટની મુલાકાતોની ગણતરી કરે છે",
+        "SegmentHelp": "સબનેટવર્ક નામ દાખલ કરો",
+        "SegmentName": "સબનેટવર્ક સેગમેન્ટ",
+        "SettingDefaultDescription": "127.x.x.x, 192.x.x.x, 10.x.x.x માં સમાવિષ્ટ સબનેટવર્ક IPv4 એડ્રેસ તરીકે માપો",
+        "SettingDefaultTitle": "પ્રમાણભૂત ખાનગી નેટવર્ક્સ શામેલ કરો",
+        "SettingDescription": "એક રેગ્યુલર એક્સપ્રેશન કે જેમાં બધા સબનેટવર્ક IP એડ્રેસનો સમાવેશ થાય છે",
+        "SettingException": "રેગ્યુલર એક્સપ્રેશન હોવું જોઈએ",
+        "SettingTitle": "સબનેટવર્ક રેગ્યુલર એક્સપ્રેશન",
+        "SubnetworkName": "સબનેટવર્ક નામ",
+        "Title": "ઇન્ટ્રાનેટ સબનેટવર્ક"
+    }
+}
