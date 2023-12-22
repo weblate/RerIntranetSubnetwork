@@ -18,6 +18,10 @@ You can ask for support and your feedback is appreciated at plugin's [issue cent
 
 ### Changelog
 
+#### Version 5.x
+- Weblate translations community powered
+- Added support for Matomo 5.x
+
 #### Version 4.x
 - fixing #10
 - Merging of community translations
