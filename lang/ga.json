@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Áiríonn an tuarascáil seo cuairteanna ón Inlíon áitiúil",
+        "SegmentHelp": "Cuir isteach Ainm an Fholíonra",
+        "SegmentName": "Deighleog folíonra",
+        "SettingDefaultDescription": "Tomhais mar sheoltaí IPv4 Fo-líonraí san áireamh i 127.x.x.x, 192.x.x.x, 10.x.x.x",
+        "SettingDefaultTitle": "Cuir líonraí príobháideacha caighdeánacha san áireamh",
+        "SettingDescription": "Slonn Rialta a chuimsíonn gach seoladh IP fo-líonraí",
+        "SettingException": "Ní mór gur léiriú rialta é",
+        "SettingTitle": "Fo-líonra Slonn Rialta",
+        "SubnetworkName": "Ainm Fo-líonra",
+        "Title": "Fo-líonra Inlín"
+    }
+}
