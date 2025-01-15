@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Tato zpráva počítá návštěvy z místního intranetu",
+        "SegmentHelp": "Zadejte název podsítě",
+        "SegmentName": "Segment podsítě",
+        "SettingDefaultDescription": "Měřeno jako podsítě IPv4 adresy zahrnuté do 127.x.x.x, 192.x.x.x, 10.x.x.x",
+        "SettingDefaultTitle": "Zahrnout standardní privátní sítě",
+        "SettingDescription": "Regulární výraz, který zahrnuje všechny IP adresy podsítí",
+        "SettingException": "Musí to být regulární výraz",
+        "SettingTitle": "Regulární výraz pro podsíť",
+        "SubnetworkName": "Název podsítě",
+        "Title": "Intranetová podsíť"
+    }
+}
