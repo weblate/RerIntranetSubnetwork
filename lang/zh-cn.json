@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "此报告统计来自本地内网的访问",
+        "SegmentHelp": "输入子网名称",
+        "SegmentName": "子网细分",
+        "SettingDefaultDescription": "将 127.x.x.x、192.x.x.x、10.x.x.x 中包含的 IPv4 地址作为子网统计",
+        "SettingDefaultTitle": "包括标准私有网络",
+        "SettingDescription": "包含所有子网 IP 地址的正则表达式",
+        "SettingException": "必须是正则表达式",
+        "SettingTitle": "子网正则表达式",
+        "SubnetworkName": "子网名称",
+        "Title": "内网子网"
+    }
+}
