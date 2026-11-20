@@ -1,1 +1,14 @@
-{}
+{
+    "RerIntranetSubnetwork": {
+        "Description": "Acest raport numără vizitele din intranetul local",
+        "SegmentHelp": "Introduceți numele subrețelei",
+        "SegmentName": "Segment subrețea",
+        "SettingDefaultDescription": "Măsurați ca subrețele adresele IPv4 incluse în 127.x.x.x, 192.x.x.x, 10.x.x.x",
+        "SettingDefaultTitle": "Includere rețele private standard",
+        "SettingDescription": "O expresie regulată care include adresele IP ale tuturor subrețelelor",
+        "SettingException": "Trebuie să fie o expresie regulată",
+        "SettingTitle": "Expresie regulată pentru subrețea",
+        "SubnetworkName": "Nume subrețea",
+        "Title": "Subrețea intranet"
+    }
+}
